@@ -16,7 +16,7 @@ string MMSS(string instring) {
     string s = instring.substr(i,j);
     if(j == (i-2) || dict.count(s)) {
         result = result + s + " ";
-      i++;
+      i = i+j;
       j = i+std::min(kmaxlength,stringinlen-i);
 
     }
