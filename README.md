@@ -1,4 +1,4 @@
 webdatamining
 =============
 
-This is about web data mining examples.
+This is about data mining examples.
